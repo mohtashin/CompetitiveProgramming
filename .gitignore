@@ -1,0 +1,25 @@
+# Compiled programs and generated files
+*.bin
+*.o
+*.obj
+*.exe
+*.class
+*.out
+!usaco/speeding/speeding.out
+a.out
+__pycache__/
+*.py[cod]
+
+# Local editor, test-runner, and operating system state
+.cph/
+.vscode/
+.clangd
+.ropeproject/
+.DS_Store
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
